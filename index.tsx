@@ -7,7 +7,7 @@
 import { showNotification } from "@api/Notifications";
 import { definePluginSettings } from "@api/Settings";
 import { Devs } from "@utils/constants";
-import { copyWithToast } from "@utils/misc";
+import { copyToClipboard } from "@utils/clipboard";
 import definePlugin, { OptionType } from "@utils/types";
 import { findByPropsLazy } from "@webpack";
 import { Button, Forms, Menu, React, Toasts, UserStore } from "@webpack/common";
